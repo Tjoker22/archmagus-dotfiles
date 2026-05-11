@@ -23,3 +23,4 @@ source /usr/share/fzf/completion.zsh
 
 eval "$(ssh-agent -s)" > /dev/null 2>&1
 ssh-add ~/.ssh/id_ed25519 2>/dev/null
+export PATH="$HOME/.local/bin:$PATH"
