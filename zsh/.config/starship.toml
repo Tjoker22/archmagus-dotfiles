@@ -1,0 +1,30 @@
+format = """
+[░▒▓](color_orange)\
+[ $os ](bg:color_orange fg:color_bg)\
+[](bg:color_yellow fg:color_orange)\
+[ $directory ](bg:color_yellow fg:color_bg)\
+[](fg:color_yellow bg:color_aqua)\
+[ $git_branch$git_status ](bg:color_aqua fg:color_bg)\
+[](fg:color_aqua)\
+$fill\
+$cmd_duration $time\
+\n$character"""
+
+[palettes.catppuccin]
+color_orange = "#fab387"
+color_yellow = "#f9e2af"
+color_aqua   = "#89dceb"
+color_bg     = "#1e1e2e"
+
+palette = "catppuccin"
+
+[directory]
+truncation_length = 3
+truncate_to_repo = true
+
+[git_branch]
+symbol = " "
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol   = "[❯](bold red)"
