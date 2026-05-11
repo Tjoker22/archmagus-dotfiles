@@ -1,0 +1,12 @@
+font-family = JetBrains Mono Nerd Font
+font-size = 13
+theme = catppuccin-mocha
+background-opacity = 0.92
+background-blur-radius = 20
+window-padding-x = 12
+window-padding-y = 8
+cursor-style = block
+cursor-style-blink = true
+shell-integration = zsh
+confirm-close-surface = false
+window-decoration = false
