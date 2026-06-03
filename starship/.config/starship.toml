@@ -28,6 +28,7 @@ $cmd_duration\
 $line_break\
 $character"""
 
+# Changed from 'catppuccin_macchiato' to 'catppuccin_mocha'
 palette = 'catppuccin_mocha'
 
 [os]
