@@ -1,0 +1,8 @@
+# Display mode: choices are drun, run, or dmenu
+mode=drun
+# Window dimensions
+width=500
+height=400
+# Enable application icons
+allow_images=true
+
