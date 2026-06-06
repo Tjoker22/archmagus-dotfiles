@@ -48,5 +48,8 @@
     "format-disconnected": "󰤭",
     "tooltip-format": "{essid} — {ipaddr}"
   },
-  "tray": { "spacing": 8 }
+  "tray": {
+    "icon-size": 18,
+    "spacing": 10
+  }
 }
