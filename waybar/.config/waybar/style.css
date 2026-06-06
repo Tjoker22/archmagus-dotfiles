@@ -7,9 +7,8 @@
 }
 
 window#waybar {
-  background: rgba(30, 30, 46, 0.85);
-  color: #cdd6f4;
-  border-bottom: 1px solid rgba(49, 50, 68, 0.6);
+  background-color: transparent;
+  border: none;
 }
 
 #workspaces button {
@@ -34,3 +33,9 @@ window#waybar {
 #pulseaudio { color: #a6e3a1; padding: 0 8px; }
 #network    { color: #89dceb; padding: 0 8px; }
 #tray       { padding: 0 8px; }
+
+.modules-left, .modules-center, .modules-right {
+  background: rgba(30, 30, 46, 0.85);
+  border: 1px solid transparent;
+  border-radius: 25px;
+}
