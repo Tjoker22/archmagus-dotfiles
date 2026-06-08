@@ -40,3 +40,5 @@ ssh-add ~/.ssh/id_ed25519 2>/dev/null
 # 8. Plugins (Sourced last, with syntax highlighting at the very end)
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# opencode
+export PATH=/home/yoyo/.opencode/bin:$PATH
