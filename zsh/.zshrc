@@ -17,6 +17,7 @@ alias cat='bat'
 alias cd='z'
 alias vim='nvim'
 alias lg='lazygit'
+alias gs='git status'
 
 # 5. FZF Configuration
 export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
