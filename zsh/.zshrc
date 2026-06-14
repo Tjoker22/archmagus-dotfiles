@@ -15,7 +15,7 @@ alias ll='eza -la --icons --group-directories-first'
 alias lt='eza --tree --icons --level=2'
 alias cat='bat'
 alias cd='z'
-alias vim='nvim'
+alias vi='nvim'
 alias lg='lazygit'
 alias gs='git status'
 
